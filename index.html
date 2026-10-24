@@ -1,1 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>鹿島魚釣園 最新情報</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f2f5f8;
+      color: #222;
+      font-family:
+        "Noto Sans JP",
+        "Meiryo",
+        sans-serif;
+    }
+
+    header {
+      background: #075985;
+      color: white;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 16px;
+      margin: 8px 0 0;
+    }
+
+    main {
+      width: 100%;
+      max-width: 720px;
+      margin: 24px auto;
+      padding: 0 12px;
+    }
+
+    .notice {
+      background: white;
+      padding: 18px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    .timeline {
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      min-height: 300px;
+    }
+
+    .open-x {
+      display: block;
+      margin: 18px 0;
+      padding: 16px;
+      text-align: center;
+      background: #075985;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 12px;
+      color: #666;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>鹿島魚釣園 最新情報</h1>
+    <p>お知らせ・釣果情報・写真</p>
+  </header>
+
+  <main>
+
+    <div class="notice">
+      鹿島魚釣園の最新情報をこちらで確認できます。<br>
+      新しい投稿が表示されない場合は、
+      時間をおいて再度ご確認ください。
+    </div>
+
+    <section class="timeline">
+
+      <a
+        class="twitter-timeline"
+        data-lang="ja"
+        data-width="100%"
+        data-height="900"
+        data-theme="light"
+        data-chrome="noheader noborders"
+        href="https://twitter.com/KashimaUoturien">
+        鹿島魚釣園の投稿を見る
+      </a>
+
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8">
+      </script>
+
+    </section>
+
+    <a
+      class="open-x"
+      href="https://x.com/KashimaUoturien"
+      target="_blank"
+      rel="noopener noreferrer">
+      鹿島魚釣園の公式Xを開く
+    </a>
+
+  </main>
+
+  <footer>
+    鹿島魚釣園の公開投稿を表示するページです。
+  </footer>
+
+</body>
+</html>
